@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c288a5a7d50d8be36beaa0e04cc0ed7d",
+    "content-hash": "8a0bcdb5df42d415699d7885f4db8c31",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -9558,5 +9558,8 @@
         "php": "^8.2"
     },
     "platform-dev": {},
+    "platform-overrides": {
+        "ext-bcmath": "1.0"
+    },
     "plugin-api-version": "2.9.0"
 }
