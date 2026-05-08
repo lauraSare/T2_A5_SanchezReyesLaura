@@ -1,9 +1,5 @@
 {
-  "phases": {
-    "extensions": {
-      "cmds": [
-        "install-php-extensions ctype curl dom fileinfo filter hash mbstring openssl pcre pdo session tokenizer xml pdo_mysql bcmath"
-      ]
-    }
+  "deploy": {
+    "startCommand": "php artisan config:clear && php artisan cache:clear && /start-container.sh"
   }
 }
